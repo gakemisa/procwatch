@@ -32,7 +32,14 @@ elif [ $choix -eq 3 ]; then # 3
 elif [ $choix -eq 4 ]; then # 4
     echo "Nom d'utilisateur: "
     read utilisateur
-    ps -u $utilisateur -f
+
+    result=$(grep $utilisateur /etc/passwd)
+    echo $result
+    if [ -z "$result" ]; then
+        echo "L'utilisateur n'existe pas"
+    elif [ -n "$result" ]; then
+        ps -u $utilisateur -f
+    fi
 
 elif [ $choix -eq 5 ]; then # 5
     echo "Votre PID: "
