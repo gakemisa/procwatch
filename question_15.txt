@@ -1,0 +1,35 @@
+1. Quelle est la difference entre un processus et un programme ?
+-> Un processus est un programme en cours d'execution tandis qu'un programme est un fichier executable 
+stocke sur le disque
+
+2. A quoi sert un PID ?
+-> 
+
+3. Quelle est la difference entre SIGTERM et SIGKILL ?
+-> SIGTERM arrete convenablement le programme tandis que SIGKILL force l' arret du programme
+
+4. Pourquoi faut-il eviter d'utiliser directement SIGKILL ?
+-> 
+
+5. Que represente la valeur nice ?
+->
+
+6. A quoi sert la commande renice ?
+->
+
+7. Quelle est la difference entre dpkg -i et apt install ?
+->
+
+8. Quel est le role du fichier DEBIAN/control ?
+->
+
+9. Quel est le role du script postinst ?
+->
+
+10. Pourquoi faut-il rendre le fichier /usr/local/bin/procwatch executable ?
+->
+
+11. Pourquoi placer le programme dans /usr/local/bin ?
+->
+
+12. Pourquoi journaliser les actions sensibles ?
