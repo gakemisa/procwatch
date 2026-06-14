@@ -13,9 +13,9 @@ Parties :
 - 2 : Gestion des erreurs
 (ok) 1. choix invalide dans le menu ;
 (ok) 2. PID vide ;
-3. PID inexistant ;
+(ok) 3. PID inexistant ;
 (ok) 4. utilisateur inexistant ;
-5. processus introuvable ;
+(ok) 5. processus introuvable ;
 ============
 1. choix invalide dans le menu ;
 2. PID vide ;
@@ -23,7 +23,7 @@ Parties :
 4. utilisateur inexistant ;
 (ok) 5. processus introuvable ; 
 6. permission insuffisante ;
-7. valeur nice invalide.
+(ok) 7. valeur nice invalide.
 
 ========================================================================
 - 3 : Journalisation
