@@ -18,23 +18,23 @@ read choix
 if [ $choix != 1 ] && [ $choix != 2 ] && [ $choix != 3 ] && [ $choix != 4 ] && [ $choix != 5 ] && [ $choix != 6 ] && [ $choix != 7 ] && [ $choix != 8 ]; then
     echo "Choix invalide"
 
-elif [ $choix -eq 1 ]; then
+elif [ $choix -eq 1 ]; then # 1
     ps aux --sort=-%cpu | head -n 11
 
-elif [ $choix -eq 2 ]; then
+elif [ $choix -eq 2 ]; then # 2
     ps aux --sort=-%mem | head -n 11
 
-elif [ $choix -eq 3 ]; then
+elif [ $choix -eq 3 ]; then # 3
     echo "Nom de processus: "
     read processus 
     pgrep -a $processus 
 
-elif [ $choix -eq 4 ]; then
+elif [ $choix -eq 4 ]; then # 4
     echo "Nom d'utilisateur: "
     read utilisateur
     ps -u $utilisateur -f
 
-elif [ $choix -eq 5 ]; then
+elif [ $choix -eq 5 ]; then # 5
     echo "Votre PID: "
     read pid
     if [ -z "$pid" ]; then
@@ -47,7 +47,7 @@ elif [ $choix -eq 5 ]; then
         kill -SIGTERM $pid
     fi
 
-elif [ $choix -eq 6 ]; then    
+elif [ $choix -eq 6 ]; then # 6
     echo "Votre PID: "
     read pid
     if [ -z "$pid" ]; then
@@ -66,7 +66,7 @@ elif [ $choix -eq 6 ]; then
         fi
     fi
 
-elif [ $choix -eq 7 ]; then
+elif [ $choix -eq 7 ]; then # 7
     echo "Votre PID: "
     read pid
     if [ -z "$pid" ]; then
@@ -81,7 +81,7 @@ elif [ $choix -eq 7 ]; then
         renice $valeur -p $pid
     fi
     
-elif [ $choix -eq 8 ]; then
+elif [ $choix -eq 8 ]; then # 8
     echo "exit"
 fi
  
