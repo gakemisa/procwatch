@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOGFILE="/var/log/procwatch.log"
+LOGFILE="var/log/procwatch.log"
 USER=$(whoami)
 
 log_action() {
