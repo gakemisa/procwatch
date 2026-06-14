@@ -16,6 +16,12 @@ Parties :
 3. PID inexistant ;
 (ok) 4. utilisateur inexistant ;
 5. processus introuvable ;
+============
+1. choix invalide dans le menu ;
+2. PID vide ;
+(ok)3. PID inexistant ;
+4. utilisateur inexistant ;
+(ok) 5. processus introuvable ; 
 6. permission insuffisante ;
 7. valeur nice invalide.
 

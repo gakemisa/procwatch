@@ -27,7 +27,11 @@ elif [ $choix -eq 2 ]; then # 2
 elif [ $choix -eq 3 ]; then # 3
     echo "Nom de processus: "
     read processus 
-    pgrep -a $processus 
+    if ! pgrep "$processus"; then
+        echo "processus $processus introuvable !"
+    else
+        pgrep -a $processus 
+    fi
 
 elif [ $choix -eq 4 ]; then # 4
     echo "Nom d'utilisateur: "
@@ -86,8 +90,8 @@ elif [ $choix -eq 7 ]; then # 7
         read valeur
         renice $valeur -p $pid
     fi
-    
-elif [ $choix -eq 8 ]; then # 8
+
+elif [ $choix -eq 8 ]; then
     echo "exit"
 fi
  
