@@ -35,17 +35,24 @@ elif [ $choix -eq 4 ]; then
 elif [ $choix -eq 5 ]; then
     echo "Votre PID: "
     read pid
-
-    if [ "$pid" = "" ]; then
-        echo "PID vide"
-    elif [ $pid != "" ] && [ $pid !=  ]; then
+    if [ -z "$pid" ]; then
+        echo "$pid inexistant"
+    elif [ ! -d "/proc/$pid" ]; then
+        echo "$pid inexistant"
+    elif [ "$pid" = "" ]; then
+            echo "PID vide"
+    else
         kill -SIGTERM $pid
     fi
 
 elif [ $choix -eq 6 ]; then    
     echo "Votre PID: "
     read pid
-    if [ "$pid" = "" ]; then
+    if [ -z "$pid" ]; then
+        echo "$pid inexistant"
+    elif [ ! -d "/proc/$pid" ]; then
+        echo "$pid inexistant"
+    elif [ "$pid" = "" ]; then
         echo "PID vide"
     elif [ $pid != "" ]; then
         echo "Etes-vous sure $pid ? O/n"
@@ -60,13 +67,18 @@ elif [ $choix -eq 6 ]; then
 elif [ $choix -eq 7 ]; then
     echo "Votre PID: "
     read pid
-    if [ "$pid" = "" ]; then
+    if [ -z "$pid" ]; then
+        echo "$pid inexistant"
+    elif [ ! -d "/proc/$pid" ]; then
+        echo "$pid inexistant"
+    elif [ "$pid" = "" ]; then
         echo "PID vide"
     elif [ $pid != "" ]; then
         echo "Valeur: "
         read valeur
         renice $valeur -p $pid
     fi
+    
 elif [ $choix -eq 8 ]; then
     echo "exit"
 fi
