@@ -1,0 +1,2 @@
+differente commande de Dylan pour PID inexistant:
+ps aux|grep 1
