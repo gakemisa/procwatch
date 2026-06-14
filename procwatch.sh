@@ -32,11 +32,10 @@ elif [ $choix -eq 3 ]; then # 3
 elif [ $choix -eq 4 ]; then # 4
     echo "Nom d'utilisateur: "
     read utilisateur
-
     result=$(grep $utilisateur /etc/passwd)
     echo $result
     if [ -z "$result" ]; then
-        echo "L'utilisateur n'existe pas"
+        echo "L'utilisateur $utilisateur n'existe pas"
     elif [ -n "$result" ]; then
         ps -u $utilisateur -f
     fi
