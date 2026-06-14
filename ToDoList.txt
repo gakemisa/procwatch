@@ -1,0 +1,34 @@
+Parties : 
+- (ok) 1 : Creation de l'outil procwatch
+(ok) 1. Afficher les 10 processus les plus consommateurs de CPU
+(ok) 2. Afficher les 10 processus les plus consommateurs de memoire
+(ok) 3. Rechercher un processus par nom
+(ok) 4. Afficher les processus d'un utilisateur
+(ok) 5. Arreter proprement un processus
+(ok) 6. Forcer l'arret d'un processus
+(ok) 7. Modifier la priorite d'un processus
+(ok) 8. Quitter
+
+=======================================================================================================================
+- 2 : Gestion des erreurs
+1. choix invalide dans le menu ;
+2. PID vide ;
+3. PID inexistant ;
+4. utilisateur inexistant ;
+5. processus introuvable ;
+6. permission insuffisante ;
+7. valeur nice invalide.
+
+- 3 : 
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15

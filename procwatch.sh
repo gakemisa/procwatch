@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear 
+
 echo "===== PROCWATCH ====="
 echo "1. Afficher les 10 processus les plus consommateurs de CPU"
 echo "2. Afficher les 10 processus les plus consommateurs de memoire"
