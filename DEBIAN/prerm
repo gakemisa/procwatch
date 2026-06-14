@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Suppression de Procwatch..."
+
+exit 0

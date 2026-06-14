@@ -1,0 +1,9 @@
+Package: procwatch
+Version: 1.0
+Section: admin
+Priority: optional
+Architecture: all
+Maintainer: Votre Nom PrinSam1818@gmail.com
+Description: Outil de surveillance et gestion des processus Linux
+ Procwatch est un outil Bash permettant d'afficher, rechercher,
+ arreter et modifier la priorite des processus Linux.

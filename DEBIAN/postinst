@@ -1,0 +1,10 @@
+#!/bin/bash
+
+chmod +x /usr/local/bin/procwatch
+
+touch /var/log/procwatch.log
+chmod 664 /var/log/procwatch.log
+
+echo "Procwatch installe avec succes."
+
+exit 0

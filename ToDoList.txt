@@ -20,23 +20,26 @@ Parties :
 (ok) 7. valeur nice invalide.
 
 ========================================================================
-- 3 : Journalisation
+- (ok) 3 : Journalisation
 + (ok) Ajouter un fichier de log 
-1 • arret propre d'un processus ;
-2 • arret force d'un processus ;
-3 • modification de priorite.
+(ok) 1 • arret propre d'un processus ;
+(ok) 2 • arret force d'un processus ;
+(ok) 3 • modification de priorite.
 
 =========================================================================
-- 4 : Creation de l'arborescence du paquet
+- (ok) 4 : Creation de l'arborescence du paquet
 
 =========================================================================
-- 5 : Fichier DEBIAN/control
+- (ok) 5 : Fichier DEBIAN/control
 
 =========================================================================
-- 6 : Script postinst
+- (ok) 6 : Script postinst
+(ok) 1. 
+(ok) 2.
+(ok) 3. 
 
 =========================================================================
-- 7 : Script prerm
+- (ok) 7 : Script prerm
 
 =========================================================================
 - 8 : Construction du paquet .deb
