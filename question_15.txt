@@ -6,7 +6,7 @@ stocke sur le disque
 -> 
 
 3. Quelle est la difference entre SIGTERM et SIGKILL ?
--> SIGTERM arrete convenablement le programme tandis que SIGKILL force l' arret du programme
+-> SIGTERM arrete convenablement le programme tandis que SIGKILL force l'arret du programme
 
 4. Pourquoi faut-il eviter d'utiliser directement SIGKILL ?
 -> 
