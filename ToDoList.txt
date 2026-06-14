@@ -9,7 +9,7 @@ Parties :
 (ok) 7. Modifier la priorite d'un processus
 (ok) 8. Quitter
 
-=======================================================================================================================
+=========================================================================
 - 2 : Gestion des erreurs
 (ok) 1. choix invalide dans le menu ;
 (ok) 2. PID vide ;
@@ -19,17 +19,20 @@ Parties :
 6. permission insuffisante ;
 7. valeur nice invalide.
 
+========================================================================
 - 3 : Journalisation
 + Ajouter un fichier de log 
     1 • arret propre d'un processus ;
     2 • arret force d'un processus ;
     3 • modification de priorite.
 
+=========================================================================
 - 4 : Creation de l'arborescence du paquet
 
+=========================================================================
 - 5 : Fichier DEBIAN/control
 
-
+=========================================================================
 - 6
 - 7
 - 8
