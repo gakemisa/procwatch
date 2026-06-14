@@ -19,9 +19,17 @@ Parties :
 6. permission insuffisante ;
 7. valeur nice invalide.
 
-- 3 : 
-- 4
-- 5
+- 3 : Journalisation
++ Ajouter un fichier de log 
+    1 • arret propre d'un processus ;
+    2 • arret force d'un processus ;
+    3 • modification de priorite.
+
+- 4 : Creation de l'arborescence du paquet
+
+- 5 : Fichier DEBIAN/control
+
+
 - 6
 - 7
 - 8
