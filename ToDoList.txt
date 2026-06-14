@@ -17,7 +17,7 @@ Parties :
 (ok) 4. utilisateur inexistant ;
 (ok) 5. processus introuvable ; 
 6. permission insuffisante ;
-7. valeur nice invalide.
+(ok) 7. valeur nice invalide.
 
 ========================================================================
 - 3 : Journalisation
