@@ -62,10 +62,10 @@ Test 5
 + (ok) Verifier les permissions 
 
 =========================================================================
-- 12 : Desinstallation
+- (ok) 12 : Desinstallation
 
 =========================================================================
-- Question 15 : Questions de comprehension
+- (ok) Question 15 : Questions de comprehension
 (ok) 1.
 (ok) 2. 
 (ok) 3.
@@ -83,7 +83,7 @@ Test 5
 - Question 16 : VERIFICATION DU Livrables attendus
 procwatch-projet/
 ├── (ok) procwatch-1.0/
-│   ├── DEBIAN/
+│   ├── (ok) DEBIAN/
 │   │   ├── (ok) control
 │   │   ├── (ok) postinst
 │   │   └── (ok) prerm
@@ -94,8 +94,8 @@ procwatch-projet/
 │   ├── (ok) installation.png
 │   ├── execution.png
 │   ├── test-processus.png
-│   ├── dpkg-s.png
-│   └── dpkg-l.png
+│   ├── (ok) dpkg-s.png
+│   └── (ok) dpkg-l.png
 └── rapport.pdf
 
 ========================================================================
