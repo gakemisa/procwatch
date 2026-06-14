@@ -88,7 +88,11 @@ elif [ $choix -eq 7 ]; then # 7
     elif [ $pid != "" ]; then
         echo "Valeur: "
         read valeur
-        renice $valeur -p $pid
+        if [ $valeur -lt -20 ] || [ $valeur -gt 19 ]; then
+            echo "valeur nice invalide"
+        else
+            renice $valeur -p $pid
+        fi
     fi
 
 elif [ $choix -eq 8 ]; then
