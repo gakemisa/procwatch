@@ -42,13 +42,13 @@ Parties :
 - (ok) 7 : Script prerm
 
 =========================================================================
-- 8 : Construction du paquet .deb
+- (ok) 8 : Construction du paquet .deb
 
 =========================================================================
-- 9 : Installation du paquet
+- (ok) 9 : Installation du paquet
 
 =========================================================================
-- 10 : Tests obligatoires
+- 10 : Tests obligatoires (tsy mety)
 Test 1
 Test 2
 Test 3
@@ -56,10 +56,10 @@ Test 4
 Test 5
 
 =========================================================================
-- 11 : Verification du paquet installe
-+ Afficher les informations du paquet
-+ Lister les fichiers installes 
-+ Verifier les permissions 
+- (ok) 11 : Verification du paquet installe
++ (ok) Afficher les informations du paquet
++ (ok) Lister les fichiers installes 
++ (ok) Verifier les permissions 
 
 =========================================================================
 - 12 : Desinstallation
@@ -67,20 +67,36 @@ Test 5
 =========================================================================
 - Question 15 : Questions de comprehension
 (ok) 1.
-2. 
+(ok) 2. 
 (ok) 3.
-4.
-5. 
-6.
-7.
-8.
-9.
-10. 
-11. 
-12. 
+(ok) 4.
+(ok) 5. 
+(ok) 6.
+(ok) 7.
+(ok) 8.
+(ok) 9.
+(ok) 10. 
+(ok) 11. 
+(ok) 12. 
 
 ========================================================================
 - Question 16 : VERIFICATION DU Livrables attendus
+procwatch-projet/
+├── (ok) procwatch-1.0/
+│   ├── DEBIAN/
+│   │   ├── (ok) control
+│   │   ├── (ok) postinst
+│   │   └── (ok) prerm
+│   ├── (ok) usr/local/bin/procwatch
+│   └── (ok) var/log/procwatch.log
+├── (ok) procwatch-1.0.deb
+├── captures/
+│   ├── (ok) installation.png
+│   ├── execution.png
+│   ├── test-processus.png
+│   ├── dpkg-s.png
+│   └── dpkg-l.png
+└── rapport.pdf
 
 ========================================================================
 - Question 17 : Variante plus difficile
