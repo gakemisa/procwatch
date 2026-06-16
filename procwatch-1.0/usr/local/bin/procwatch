@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOGFILE="var/log/procwatch.log"
+LOGFILE="/var/log/procwatch.log"
 USER=$(whoami)
 
 log_action() {
@@ -23,7 +23,7 @@ echo "Choix :"
 
 read choix 
 
-if [ "$choix" -ne 1 ] && [ "$choix" -ne 2 ] && [ "$choix" -ne 3 ] && [ "$choix" -ne 4 ] && [ "$choix" -ne 5 ] && [ "$choix" -ne 6 ] && [ "$choix" -ne 7 ] && [ "$choix" -ne 8 ]; then
+if [ "$choix" -gt 0 ] && [ "$choix" -lt 9 ]; then
     echo "Choix invalide!!"
     echo "Votre choix doit etre entre 1 et 8."
 

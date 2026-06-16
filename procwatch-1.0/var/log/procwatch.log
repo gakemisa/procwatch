@@ -1,2 +1,11 @@
 2026-06-14 19:28:44 - kanteerix - SIGTERM envoyé au processus 24522
 2026-06-15 21:09:29 - ubuntu - SIGTERM envoyé au processus 100
+2026-06-16 11:00:49 - ubuntu - SIGTERM envoyé au processus 100
+2026-06-16 11:01:51 - ubuntu - SIGKILL envoyé au processus 100
+2026-06-16 11:02:11 - ubuntu - Priorité modifiée à 10 pour le processus 100
+2026-06-16 11:13:59 - ubuntu - SIGTERM envoyé au processus 124
+2026-06-16 11:22:32 - ubuntu - SIGTERM envoyé au processus 100
+2026-06-16 11:30:25 - ubuntu - SIGTERM envoyé au processus 100
+2026-06-16 11:36:34 - ubuntu - SIGTERM envoyé au processus 8
+2026-06-16 11:37:02 - ubuntu - SIGTERM envoyé au processus 30433
+2026-06-16 11:46:03 - ubuntu - SIGTERM envoyé au processus 30957
