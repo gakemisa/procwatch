@@ -1,0 +1,57 @@
+# Question 15:
+
+#### 1. Quelle est la difference entre un processus et un programme ?
+-> Un processus est un programme en cours d'execution tandis qu'un programme est un fichier executable 
+stocke sur le disque.
+<br>
+
+#### 2. A quoi sert un PID ?
+-> Il sert a identifier un processus.
+<br>
+
+#### 3. Quelle est la difference entre SIGTERM et SIGKILL ?
+-> SIGTERM arrete convenablement le programme tandis que SIGKILL force l'arret du programme
+<br>
+
+#### 4. Pourquoi faut-il eviter d'utiliser directement SIGKILL ?
+-> Il faut éviter d’utiliser directement SIGKILL (signal 9) car il force l’arrêt immédiat 
+d’un processus sans lui laisser le temps de nettoyer ses ressources, ce qui peut provoquer 
+des pertes de données, des fichiers corrompus ou des états incohérents. 
+<br>
+
+#### 5. Que represente la valeur nice ?
+-> La valeur nice représente la priorité d’exécution d’un processus.
+<br>
+
+#### 6. A quoi sert la commande renice ?
+-> Elle sert a modifier une priorite
+<br>
+
+#### 7. Quelle est la difference entre dpkg -i et apt install ?
+->  apt install télécharge et installe automatiquement les dépendances tandis que 
+dpkg -i ignore les dependances
+<br>
+
+#### 8. Quel est le role du fichier DEBIAN/control ?
+-> le système lit le fichier DEBIAN/control pour :
+    Créer le paquet .deb avec les bonnes métadonnées.
+    Afficher ces infos lors de l’installation (dpkg -i procwatch-1.0.deb).
+    Permettre à apt ou dpkg de gérer le paquet (désinstallation, dépendances, etc.).
+<br>
+
+#### 9. Quel est le role du script postinst ?
+-> Le script postinst sert à exécuter automatiquement des actions de configuration ou 
+d’initialisation juste après l’installation d’un paquet Debian.
+<br>
+
+#### 10. Pourquoi faut-il rendre le fichier /usr/local/bin/procwatch executable ?
+-> Pour que le programme puisse s'executer
+<br>
+
+#### 11. Pourquoi placer le programme dans /usr/local/bin ?
+-> /usr/local/bin est le répertoire prévu pour installer tes propres scripts ou programmes 
+afin qu’ils soient accessibles comme des commandes, sans interférer avec les binaires du système.
+<br>
+
+#### 12. Pourquoi journaliser les actions sensibles ?
+-> On journalise les actions sensibles pour assurer la traçabilité, détecter les anomalies et renforcer la sécurité, en gardant une preuve claire de ce qui a été fait et par qui.
